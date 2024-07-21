@@ -49,7 +49,15 @@
 # t = ('骆昊', 38, True, '四川成都')
 # print(t)
 
-set1 = {1, 2, 3, 3, 3, 2}
-set1.add(4)
-set1.update([11, 12])
-print(set1)
+# set1 = {1, 2, 3, 3, 3, 2}
+# set1.add(4)
+# set1.update([11, 12])
+# print(set1)
+
+# items1 = dict(one=1, two=2, three=3, four=4)
+# print(items1)
+
+scores = {'骆昊': 95, '白元芳': 78, '狄仁杰': 82}
+print(scores.popitem())
+print(scores.popitem())
+print(scores.pop('骆昊', 100))
