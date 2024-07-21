@@ -26,3 +26,55 @@
 
 **切片**
 - sequence[start:stop:step]
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+## 07字符串和常用数据结构
+### 字符串
+- 转义符号   r
+- [:::]切片 左闭右开
+- 索引
+- len
+- .capitalize 字符串首字母大写的拷贝
+- .title 每个单词首字母大写的拷贝
+- .upper
+- .find   .index
+- .center .rjust
+- .isdigit  .isalpha  .isalnum
+- .strip
+![alt text](image-7.png)
+
+### 列表
+- 乘号*
+- len
+- for index in range(len(list))
+- for elem in list
+- for index, elem in enumerate(list)
+- .append
+- .insert
+- .entend(list2)   += list2
+- .remove
+- .pop
+- .clear
+- 切片 [:]  [::-1]
+- .sorted(list, reverse = , key = )  返回拷贝  .sort() 在原列表上操作
+- [x for x in ...]     sys.getsizeof(list)
+- yield    
+eg:def fib(n): 
+    a, b = 0, 1 
+    for _ in range(n):
+        a, b = b, a + b
+        yield a
+    def main():
+        for val in fib(20):
+            print(val)
+
+### 元组
+
+
