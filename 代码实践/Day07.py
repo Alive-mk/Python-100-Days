@@ -45,6 +45,11 @@
 # if __name__ == '__main__':
 #     main()
 
-# 定义元组
-t = ('骆昊', 38, True, '四川成都')
-print(t)
+# # 定义元组
+# t = ('骆昊', 38, True, '四川成都')
+# print(t)
+
+set1 = {1, 2, 3, 3, 3, 2}
+set1.add(4)
+set1.update([11, 12])
+print(set1)
