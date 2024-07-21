@@ -23,3 +23,6 @@
 
 **求最小公倍数**
 - X*Y//gcd(X,Y)
+
+**切片**
+- sequence[start:stop:step]
