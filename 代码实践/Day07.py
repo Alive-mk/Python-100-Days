@@ -30,17 +30,21 @@
 # print(list1)
 # print(sys.getsizeof(list1))
 
-def fib(n):
-    a, b = 0, 1
-    for _ in range(n):
-        a, b = b, a + b
-        yield a
+# def fib(n):
+#     a, b = 0, 1
+#     for _ in range(n):
+#         a, b = b, a + b
+#         yield a
 
 
-def main():
-    for val in fib(20):
-        print(val)
+# def main():
+#     for val in fib(20):
+#         print(val)
 
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
+
+# 定义元组
+t = ('骆昊', 38, True, '四川成都')
+print(t)

@@ -76,5 +76,6 @@ eg:def fib(n):
             print(val)
 
 ### 元组
+- 元组元素不能更改
 
 
